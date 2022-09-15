@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div><center>
+        <h1>Marksheet Of First Year</h1>
+        <h2>Pre- Engineering Group</h2></center>
+    </div>
+<form onsubmit="marksheet(); return false" >
+    <fieldset>
+<Legend>Enter Data </Legend>
+<div><center>Full Name :<br>
+<input type="text" id="fname" min="5" max="30" required><br><br>
+<label >Father Name :</label><br>
+<input type="text" id="fatname" min="5" max="30" required><br><br>
+<label >Roll Number :</label><br>
+<input type="text" id="roll" min="5" max="30" placeholder="Random" required><br><br></center></div>
+<h1>Enter Subject Marks</h1>
+Math: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="number" min="1" max="100"  placeholder="100" id="s1" required><br><br>
+Chemistry: <input type="number" min="1" max="100"  placeholder="100" id="s2" required><br><br>
+Physics: &nbsp;&nbsp;&nbsp; <input type="number" min="1" max="100"  placeholder="100" id="s3" required><br><br>
+Urdu: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" min="1" max="100"  placeholder="100" id="s4" required><br><br>
+English: &nbsp;&nbsp;&nbsp; <input type="number" min="1" max="100"  placeholder="100" id="s5" required><br><br>
+Islamiat: &nbsp;&nbsp; <input type="number" min="1" max="50"  placeholder="50" id="s6" required><br><br>
+ <br>   
+<button type="Submit"> Add The Number</button>
+
+
+</fieldset>
+
+
+
+</form>
+
+<form >
+    <fieldset>
+<legend>
+    Your Given datails
+</legend>
+
+<h3 id="h1"></h3>
+<h3 id="h2"></h3>
+<h3 id="h3"></h3>
+<h3 id="add"></h3>
+<h3>Total Marks 550 </h3>
+<h3 id="perc"></h3>
+<h3 id="grade"></h3>
+    </fieldset>
+</form>
+
+
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
