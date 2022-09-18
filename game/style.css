@@ -1,0 +1,41 @@
+body{
+background-image: url(./image/game.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+#foo{
+
+
+border : solid 3px lightgray;
+border-radius: 18px;
+padding: 9px;
+}
+
+#top{
+color: WHITE;
+text-shadow: 2px 2px 5px red;
+padding: 10px ;
+
+}
+
+
+
+.button3 {padding: 14px 40px;
+        background-color: #d08181; 
+        border: none;
+   
+        padding: 10px ;
+    
+        color: black; 
+        border: 2px solid #f60303;
+ border-radius: 8px;       
+}
+
+.input{
+    border-radius: 8px; 
+    border: 2px solid #f60303;  
+    padding: 5px ;
+    background-color: #efdcdc;
+}
