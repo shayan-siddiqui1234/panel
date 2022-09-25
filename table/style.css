@@ -1,0 +1,41 @@
+body{
+    background-image: url(./image/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    
+
+
+}
+.button3 {padding: 14px 40px;
+    background-color: #e1dff5; 
+    border: none;
+
+    padding: 10px ;
+    
+    
+    border: 2px solid #6f04fa;
+border-radius: 8px;       
+}
+
+.input{
+border-radius: 8px; 
+border: 2px solid #0616f5;  
+padding: 5px ;
+background-color: #edecf3;
+}
+
+.top{
+    color: WHITE;
+    text-shadow: 2px 2px 5px rgb(0, 70, 209);
+    padding: 10px ;
+    
+    }
+    #foo{
+
+
+        border : solid 3px rgb(105, 105, 247);
+        border-radius: 18px;
+        padding: 9px;
+        }
+        

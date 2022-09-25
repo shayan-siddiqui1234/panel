@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body><center>
+    
+    <form onsubmit="printTable(); return false" id="foo">
+      
+
+
+      
+     <h1 class="top">Table Generator </h1>
+       <h2 class="top"> Table:<input type="Number" required min="1" max="200" id="num" class="input"></h2> 
+    
+    <h2 class="top">  No of Times: <input type="Number" id="times" required min="1" max="200" class="input"></h2> 
+        
+
+        <button type="submit" class="button3">Generate Table</button>
+
+    </form>
+    <p id="result"> </p>
+
+</center>
+
+</fieldset>
+
+    <script>
+function printTable(){
+let num= +document.querySelector("#num").value;
+
+let Times= +document.querySelector("#times").value;
+
+
+let result = " ";
+
+
+
+
+for (let i = 1; i <= Times ; i++) {
+
+    console.log("Num",i);
+    
+    result += `<b>${num} x ${i+1} = ${num * (i+1)} </b><br>`
+}
+document.querySelector("#result").innerHTML = result;
+}
+
+    </script>
+
+
+</body>
+
+</html>
